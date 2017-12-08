@@ -1,0 +1,89 @@
+<dashboard>
+  <label>Attributions</label>
+  <description>Standing on the shoulders of giants, this work would not be possible without other people's previous work</description>
+  <row>
+    <panel>
+      <title>Scalable Vector Graphics (SVG) Standard</title>
+      <html>
+        <ul>
+          <li>Attribution - <a href="https://www.w3.org/Graphics/SVG/">W3C SVG Working Group</a>
+          </li>
+          <li>Source url - <a href="https://www.w3.org/TR/SVG11/">Scalable Vector Graphics (SVG) 1.1. (Second Edition)</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+    <panel>
+      <title>SVG javascript library</title>
+      <html>
+        <ul>
+          <li>Attribution - SVG.js (http://svgjs.com)</li>
+          <li>Source url - <a href="https://github.com/svgdotjs/svg.js/">SVG.js GitHub repository</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>SVG images - SVG Logo</title>
+      <html>
+        <ul>
+          <li>Attribution - <a href="https://www.w3.org/Graphics/SVG/">W3C SVG Working Group</a>
+          </li>
+          <li>Source url - <a href="https://www.w3.org/2009/08/svg-logos.html">W3C SVG Logo</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+    <panel>
+      <title>SVG images - Battery</title>
+      <html>
+        <ul>
+          <li>Attribution - <a href="https://www.vecteezy.com">Free vector art via www.Vecteezy.com</a>
+          </li>
+          <li>Source url - <a href="https://www.vecteezy.com/vector-art/104962-phone-battery-charging-free-vector">Battery</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>SVG images - Queen Elizabeth II</title>
+      <html>
+        <ul>
+          <li>Attribution - <a href="https://openclipart.org/user-detail/GDJ">GDJ</a>
+          </li>
+          <li>Source url - <a href="https://openclipart.org/detail/220753/queen-elizabeth-ii">Queen Elizabeth II</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+    <panel>
+      <title>SVG images - Green Turtle</title>
+      <html>
+        <ul>
+          <li>Attribution - <a href="https://openclipart.org/user-detail/badaman">badaman</a>
+          </li>
+          <li>Source url - <a href="https://openclipart.org/detail/229886/turtle">Turtle</a>
+          </li>
+        </ul>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>SVG images - United Kingdom and Ireland</title>
+      <html>
+        <ul>
+          <li>Attribution - MAPSVG (http://mapsvg.com/)
+          </li>
+          <li>Source url - United Kingdom and Ireland (http://mapsvg.com/maps/united-kingdom/)
+          </li>
+        </ul>
+      </html>
+    </panel>
+  </row>  
+  
+</dashboard>

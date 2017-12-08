@@ -1,0 +1,262 @@
+<dashboard>
+  <label>Viewbox</label>
+  <description>Using viewbox format settings to move and size SVG</description>
+  <row>
+    <panel>
+      <viz type="svg.svg">
+        <title>Default</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-Y 20</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">20</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-Y -20</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">-20</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-X -20</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">-20</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-X 20</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">20</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Height 120</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">120</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Height 200</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">200</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Width 120</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">120</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <viz type="svg.svg">
+        <title>Width 200</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">100</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">200</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-Y -50 Height 200</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">200</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">-50</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-Y -100 Height 200</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">200</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">-100</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <viz type="svg.svg">
+        <title>Min-Y -10 Height 120</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="green",stroke_width=20,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">120</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">-10</option>
+        <option name="svg.svg.viewbox_width">100</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

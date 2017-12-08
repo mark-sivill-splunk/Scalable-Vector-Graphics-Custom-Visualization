@@ -1,0 +1,214 @@
+<dashboard>
+  <label>Circles and Squares</label>
+  <description>Simple and complex macro examples</description>
+  <row>
+    <panel>
+      <title>Simple Square</title>
+      <viz type="svg.svg">
+        <title>Vanilla</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, square_colour="red"
+| `svg_viz_square_simple(text,square_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple Square</title>
+      <viz type="svg.svg">
+        <title>No text</title>
+        <search>
+          <query>|  makeresults | eval text="", square_colour="orange"
+| `svg_viz_square_simple(text,square_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple Square</title>
+      <viz type="svg.svg">
+        <title>RGB color code</title>
+        <search>
+          <query>|  makeresults | eval text="ONE", square_colour="#1e90ff"
+| `svg_viz_square_simple(text,square_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Square</title>
+      <viz type="svg.svg">
+        <title>Wider border</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, text_colour="white", square_colour="green",stroke_width=10,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Square</title>
+      <viz type="svg.svg">
+        <title>Without border</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", square_colour="purple",stroke_width=0,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Square</title>
+      <viz type="svg.svg">
+        <title>Monochrome</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, text_colour="black", square_colour="white",stroke_width=10,stroke_colour="black"
+| `svg_viz_square_complex(text,text_colour,square_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Simple Circle</title>
+      <viz type="svg.svg">
+        <title>Vanilla</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, circle_colour="red"
+| `svg_viz_circle_simple(text,circle_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple Circle</title>
+      <viz type="svg.svg">
+        <title>No text</title>
+        <search>
+          <query>|  makeresults | eval text="", circle_colour="orange"
+| `svg_viz_circle_simple(text,circle_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple Circle</title>
+      <viz type="svg.svg">
+        <title>RGB color code</title>
+        <search>
+          <query>|  makeresults | eval text="ONE", circle_colour="#1e90ff"
+| `svg_viz_circle_simple(text,circle_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Circle</title>
+      <viz type="svg.svg">
+        <title>Wider border</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, text_colour="white", circle_colour="green",stroke_width=10,stroke_colour="black"
+| `svg_viz_circle_complex(text,text_colour,circle_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Circle</title>
+      <viz type="svg.svg">
+        <title>Without border</title>
+        <search>
+          <query>|  makeresults | eval text="Sivill", text_colour="white", circle_colour="purple",stroke_width=0,stroke_colour="black"
+| `svg_viz_circle_complex(text,text_colour,circle_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex Circle</title>
+      <viz type="svg.svg">
+        <title>Monochrome</title>
+        <search>
+          <query>|  makeresults | eval text=random()%100, text_colour="black", circle_colour="white",stroke_width=10,stroke_colour="black"
+| `svg_viz_circle_complex(text,text_colour,circle_colour,stroke_width,stroke_colour)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

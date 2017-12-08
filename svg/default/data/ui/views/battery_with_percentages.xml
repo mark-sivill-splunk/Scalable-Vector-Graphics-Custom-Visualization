@@ -1,0 +1,353 @@
+<dashboard>
+  <label>Battery with Percentages</label>
+  <description>Simple and complex macro examples</description>
+  <row>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=0
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=10
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=20
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=30
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=40
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=50
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=60 
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=70
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=80
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=90
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple</title>
+      <viz type="svg.svg">
+        <search>
+          <query>| makeresults 
+| eval percentage=100, battery_color="black", fill_color="green", text_fill_color="black", empty_text_color="green" 
+| `svg_viz_battery_percentage_simple(percentage)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="height">50</option>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Complex</title>
+      <viz type="svg.svg">
+        <title>Monochrome</title>
+        <search>
+          <query>| makeresults 
+| eval percentage=32, battery_color="black", fill_color="black", text_fill_color="white", empty_text_color="black" 
+| `svg_viz_battery_percentage_complex(percentage, battery_color, fill_color, text_fill_color, empty_text_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex</title>
+      <viz type="svg.svg">
+        <title>Different fill color</title>
+        <search>
+          <query>| makeresults 
+| eval percentage=50, battery_color="black", fill_color="red", text_fill_color="white", empty_text_color="black" 
+| `svg_viz_battery_percentage_complex(percentage, battery_color, fill_color, text_fill_color, empty_text_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex</title>
+      <viz type="svg.svg">
+        <title>Different text colors</title>
+        <search>
+          <query>| makeresults 
+| eval percentage=64, battery_color="black", fill_color="green", text_fill_color="black", empty_text_color="green" 
+| `svg_viz_battery_percentage_complex(percentage, battery_color, fill_color, text_fill_color, empty_text_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex</title>
+      <viz type="svg.svg">
+        <title>Change battery color</title>
+        <search>
+          <query>| makeresults 
+| eval percentage=100, battery_color="green", fill_color="green", text_fill_color="white", empty_text_color="green" 
+| `svg_viz_battery_percentage_complex(percentage, battery_color, fill_color, text_fill_color, empty_text_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.25158</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

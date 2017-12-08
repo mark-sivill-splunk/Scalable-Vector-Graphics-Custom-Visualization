@@ -1,0 +1,216 @@
+<dashboard>
+  <label>Battery with Bars</label>
+  <description>Simple and complex macro examples</description>
+  <row>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>Empty</title>
+        <search>
+          <query>| makeresults 
+| eval bars=0
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>One bar</title>
+        <search>
+          <query>| makeresults 
+| eval bars=1
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>Two bars</title>
+        <search>
+          <query>| makeresults 
+| eval bars=2
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>Three bars</title>
+        <search>
+          <query>| makeresults 
+| eval bars=3
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>Four bars</title>
+        <search>
+          <query>| makeresults 
+| eval bars=4
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Simple bar</title>
+      <viz type="svg.svg">
+        <title>Full</title>
+        <search>
+          <query>| makeresults 
+| eval bars=5
+| `svg_viz_battery_bars_simple(bars)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Complex bar</title>
+      <viz type="svg.svg">
+        <title>Monochrome</title>
+        <search>
+          <query>| makeresults 
+| eval battery_color = "black", bar1_color="black", bar2_color="black", bar3_color="black", bar4_color="black", bar5_color = "white"
+| `svg_viz_battery_bars_complex(battery_color, bar1_color, bar2_color, bar3_color, bar4_color, bar5_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex bar</title>
+      <viz type="svg.svg">
+        <title>Grey empty</title>
+        <search>
+          <query>| makeresults 
+| eval battery_color = "black", bar1_color="black", bar2_color="black", bar3_color="black", bar4_color="#72706f", bar5_color = "#72706f"
+| `svg_viz_battery_bars_complex(battery_color, bar1_color, bar2_color, bar3_color, bar4_color, bar5_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Complex bar</title>
+      <viz type="svg.svg">
+        <title>Colorful</title>
+        <search>
+          <query>| makeresults 
+| eval battery_color = "orange", bar1_color="red", bar2_color="pink", bar3_color="blue", bar4_color="green", bar5_color = "purple"
+| `svg_viz_battery_bars_complex(battery_color, bar1_color, bar2_color, bar3_color, bar4_color, bar5_color)`</query>
+          <earliest>-1m</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="svg.svg.debug">false</option>
+        <option name="svg.svg.viewbox_height">52.251591</option>
+        <option name="svg.svg.viewbox_min_x">0</option>
+        <option name="svg.svg.viewbox_min_y">0</option>
+        <option name="svg.svg.viewbox_width">107.73599</option>
+        <option name="trellis.enabled">0</option>
+        <option name="trellis.scales.shared">1</option>
+        <option name="trellis.size">medium</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

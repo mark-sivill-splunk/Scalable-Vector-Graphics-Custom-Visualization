@@ -1,0 +1,18 @@
+<nav search_view="search" color="#FD9827">
+  <collection label="SVG Examples">
+    <view name="showcase" default="true" />
+    <view name="infrastructure_monitoring" />
+    <view name="wheres_wally" />
+    <view name="circles_and_squares" />
+    <view name="battery_with_percentages" />
+    <view name="battery_with_bars" />
+    <view name="go_large" />
+    <collection label="How Tos">
+      <view name="viewbox" />
+      <view name="playground" />
+    </collection>
+  </collection>
+  <view name="search" />
+  <view name="dashboards" />
+  <view name="attribution" />
+</nav>
