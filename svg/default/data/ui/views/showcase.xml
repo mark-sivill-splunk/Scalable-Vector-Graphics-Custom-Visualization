@@ -4,7 +4,7 @@
   <row>
     <panel>
       <viz type="svg.svg">
-        <title>Battery with Bars</title>
+        <title>Battery with Percentage</title>
         <search>
           <query>| makeresults 
 | eval percentage=60 
@@ -27,7 +27,7 @@
     </panel>
     <panel>
       <viz type="svg.svg">
-        <title>Battery with Percentage</title>
+        <title>Battery with Bars</title>
         <search>
           <query>| makeresults 
 | eval bars=3

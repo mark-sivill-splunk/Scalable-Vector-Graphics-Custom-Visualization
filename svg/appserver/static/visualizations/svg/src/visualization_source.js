@@ -1,14 +1,11 @@
-/*
- * Visualization source
- */
-
 //
-// snapsvg does not conform to npm naming conventions so does not load correctly in define
+// Written by - Mark Sivill
 //
-
-// checking xml added ( including namepaces )
-
-// when pulling large external svg values replace " with \"
+// Description - take a SPL field which contains SVG, validate it is valid XML, then pass to SVG javascript library to render
+//
+// Notes - snapsvg does not conform to npm naming conventions so does not load correctly in define section so using svgjs instead
+//
+// Notes - when pulling large external svg values replace " with \" as some external files contain ' which can cause issues
 
 define([
     'jquery',
